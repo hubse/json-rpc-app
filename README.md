@@ -24,7 +24,7 @@ A sample app used to demonstrate JSON-RPC sample.
 
 ## Requirements
 
-- Node.js (version that supports ES modules)
+- Node.js
 
 ---
 
@@ -84,9 +84,4 @@ Server Response: { success: true, result: 8 }
 ```
 
 ---
-
-## Notes
-
-- The server uses `express.json()` to parse incoming JSON.
-- The client uses `node-fetch` (ESM `type: module`).
 
